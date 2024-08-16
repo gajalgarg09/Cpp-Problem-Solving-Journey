@@ -1,3 +1,7 @@
+// Problem statement
+// Given a sequence of numbers ‘ARR’. Your task is to return a sorted sequence of ‘ARR’ in non-descending order with help of the merge sort algorithm.
+
+
 #include<iostream>
 using namespace std;
 
