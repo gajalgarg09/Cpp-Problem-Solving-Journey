@@ -1,3 +1,6 @@
+// You are given a sorted doubly linked list of size 'n'.
+// Remove all the duplicate nodes present in the linked list.
+
 #include<iostream>
 using namespace std;
 
