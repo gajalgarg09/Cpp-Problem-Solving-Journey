@@ -1,3 +1,5 @@
+// To check whether a Linked List is circular or not
+
 #include<iostream>
 using namespace std;
 
