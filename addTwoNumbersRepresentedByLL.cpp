@@ -1,3 +1,8 @@
+// Given two numbers, num1, and num2, represented by linked lists. The task is to return the head of the linked list representing the sum of these two numbers.
+// For example, the number 190 will be represented by the linked list, 1->9->0->null, similarly 25 by 2->5->null. Sum of these two numbers is 190 + 25 = 215, 
+// which will be represented by 2->1->5->null. You are required to return the head of the linked list 2->1->5->null.
+// Note: There can be leading zeros in the input lists, but there should not be any leading zeros in the output list.
+
 #include<iostream>
 #include<vector>
 #include<string>
