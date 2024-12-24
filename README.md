@@ -1,3 +1,3 @@
-This Repository will consist of all the questions I'll be solving with problem statement as well as it's solution.
-<br>
-I'll be using C++ to solve most of the questions.
+Welcome to my problem-solving repository! <br>
+Here, I document my journey through various coding challenges, complete with problem statements and my C++ solutions. <br>
+This repository serves as a place for continuous learning and improvement in algorithm design, problem-solving, and C++ mastery.
