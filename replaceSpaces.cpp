@@ -1,3 +1,6 @@
+// You have been given a string 'STR' of words. 
+// You need to replace all the spaces between words with “@40”.
+
 #include<iostream>
 #include<string>
 using namespace std;
