@@ -16,6 +16,8 @@ string removeDuplicated(string s){
     string result;
 
     for(char ch : s){
+        // here our result acts like a stack where we check that if the element in 's' is same as top of result we remove the top element 
+        // because it means that we have duplicates
         if(!result.empty() && result.back() == ch){
             result.pop_back();
         }
