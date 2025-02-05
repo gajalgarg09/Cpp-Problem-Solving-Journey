@@ -1,3 +1,6 @@
+// Find the Pivot element in  a sorted and rotated array
+// Pivot -> smallest element
+    
 #include<iostream>
 using namespace std;
 
