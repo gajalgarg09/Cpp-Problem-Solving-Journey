@@ -1,3 +1,9 @@
+// You have been given a sorted array/list 'arr' consisting of ‘n’ elements. You are also given an integer ‘k’.
+// Now, your task is to find the first and last occurrence of ‘k’ in 'arr'.
+// Note :
+// 1. If ‘k’ is not present in the array, then the first and the last occurrence will be -1. 
+// 2. 'arr' may contain duplicate elements.
+    
 #include<iostream>
 #include<vector>
 using namespace std;
