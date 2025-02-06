@@ -1,3 +1,5 @@
+// Print the row wise sum of an 2D array
+
 #include<iostream>
 using namespace std;
 
