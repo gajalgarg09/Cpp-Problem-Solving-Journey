@@ -1,4 +1,4 @@
-// Find the Pivot element in  a sorted and rotated array
+// Find the Pivot element in a rotated array
 // Pivot -> smallest element
     
 #include<iostream>
