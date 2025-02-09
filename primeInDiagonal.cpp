@@ -4,7 +4,7 @@
 // An integer is prime if it is greater than 1 and has no positive integer divisors other than 1 and itself.
 // An integer val is on one of the diagonals of nums if there exists an integer i for which nums[i][i] = val or an i for which nums[i][nums.length - i - 1] = val.
 
-// Time comlexity = O(N* (root M))
+// Time complexity = O(N* (root M))
 // N -> size of matrix
 // M -> maximum element
 
