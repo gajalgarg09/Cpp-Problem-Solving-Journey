@@ -1,3 +1,5 @@
+// Find the GCD / HCF of the numbers
+
 #include<iostream>
 using namespace std;
 
