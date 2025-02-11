@@ -1,3 +1,7 @@
+// You are given a three integers 'X', 'N', and 'M'. 
+// Your task is to find ('X' ^ 'N') % 'M'. A ^ B is defined as A raised to power B and 
+// A % C is the remainder when A is divided by C.
+
 #include<iostream>
 using namespace std;
 
