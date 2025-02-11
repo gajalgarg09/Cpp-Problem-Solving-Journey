@@ -1,3 +1,6 @@
+//Given an integer n, return the number of prime numbers that are strictly less than n.
+// O(n * log(log n))
+
 #include<iostream>
 #include<vector>
 using namespace std;
