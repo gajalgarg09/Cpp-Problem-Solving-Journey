@@ -1,3 +1,6 @@
+// Given a Binary Tree, Your task is to return the values visible from Right view of it.
+// Right view of a Binary Tree is set of nodes visible when tree is viewed from right side.
+
 #include<iostream>
 #include<vector>
 #include<unordered_map>
