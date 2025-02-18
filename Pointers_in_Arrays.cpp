@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    /*
+/*
     int arr[10]  ={3,5,3,8,6};
     // both will give same answers
     cout << "Address : " << arr << endl;
@@ -28,7 +28,7 @@ int main(){
     cout << sizeof(&ptr) << endl;
 */
 
-    /*
+/*
     int a[10] = {10,3,5,6,7};
     // all will give the same answer
     cout << &a[0] << endl;
@@ -39,10 +39,9 @@ int main(){
     cout << p << endl; // address of array
     cout << *p << endl;  // value at a[0]
     cout << &p << endl;  // give the address of pointer
-    */
+ */
 
     int arr[10] = {1,3,5,77,8,9};
-
     // ERROR
     //arr = arr + 1;
 
@@ -50,8 +49,6 @@ int main(){
     cout << ptr << endl;
     ptr = ptr + 1;
     cout << ptr << endl;
-
-
 
     return 0;
 }
