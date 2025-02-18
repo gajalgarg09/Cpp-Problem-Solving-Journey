@@ -2,7 +2,7 @@
 using namespace std;
 
 // For a 32 bit system size of pointer is 4 bytes
-// For a 64 bit system size of pointer is 64 bytes
+// For a 64 bit system size of pointer is 8 bytes
 
 int main(){
 
@@ -63,10 +63,10 @@ int main(){
     // cout << *p << " - " << *q << endl;
 
     // Important concept
-    int a = 5;
-    int *p = &a;
-    (*p)++;
-    cout << a << endl;
+    // int a = 5;
+    // int *p = &a;
+    // (*p)++;
+    // cout << a << endl;
 
 
 
