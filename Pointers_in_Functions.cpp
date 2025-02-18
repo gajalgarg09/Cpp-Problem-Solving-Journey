@@ -31,7 +31,7 @@ int main(){
 
     // print(p);
 
-// same value will be printed because the value is updated for the function's p 
+    // same value will be printed because the value is updated for the function's p 
     cout << "Before : " << *p << endl;
     update(p);
     cout <<"After : " << *p << endl;
