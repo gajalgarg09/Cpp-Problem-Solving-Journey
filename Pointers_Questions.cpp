@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+// Find the output of the following code snippets : 
+
 int main(){
     /*  Question - 1
     int first = 8;
