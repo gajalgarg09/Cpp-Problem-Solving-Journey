@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void udate(int** p2){
+void update(int** p2){
     //p2 = p2 + 1;   -> no change
 
     //*p2 = *p2 + 1;  -> only change in p
@@ -34,7 +34,7 @@ int main(){
     cout << "before " << i << endl;
     cout << "before " << p << endl;
     cout << "before " << p2 << endl;
-    udate(p2);
+    update(p2);
     cout << "after " << i << endl;
     cout << "after " << p << endl;
     cout << "after " << p2 << endl;
