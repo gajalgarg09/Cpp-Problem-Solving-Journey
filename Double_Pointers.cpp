@@ -3,14 +3,11 @@ using namespace std;
 
 void update(int** p2){
     //p2 = p2 + 1;   -> no change
-
     //*p2 = *p2 + 1;  -> only change in p
-
     // **p2 = **p2 + 1;  -> only change in value of p
 }
 
 int main(){
-    
     int i = 5;
     int* p = &i;
     int** p2 = &p;
@@ -38,7 +35,6 @@ int main(){
     cout << "after " << i << endl;
     cout << "after " << p << endl;
     cout << "after " << p2 << endl;
-
 
     return 0;
 }
