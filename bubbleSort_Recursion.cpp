@@ -1,33 +1,30 @@
-// Bubble Sort using Recursion
-
 #include<iostream>
 using namespace std;
 
-void bubble_sort(int *arr , int n){
+void bubbleSort(int arr[] , int size){
 
-    if( n == 0 || n == 1)
+    if( size == 0 || size == 1){
         return ;
+    }
 
-    for(int i = 0 ; i<n-1; i++){
+    for(int i =0; i<size-1; i++){
         if( arr[i] > arr[i+1]){
-            swap(arr[i] , arr[i+1]);
+            swap(arr[i] ,arr[i+1]);
         }
     }
-    bubble_sort( arr , n-1);
+    bubbleSort(arr , size-1);
 }
 
 int main(){
 
-    int arr[7] = { 235,89,54,2,3,9,22};
-    
-    bubble_sort( arr , 7);
+    int arr[5] = {4,3,7,8,5};
+    int size = 5;
 
-    for(int i = 0; i < 7; i++){
+    bubbleSort(arr , 5);
+
+    for(int i =0; i<size; i++){
         cout << arr[i] << " ";
     }
-
-
-
 
     return 0;
 }
