@@ -32,7 +32,7 @@ class Stack{
             }
         }
 
-        int top(){
+        int peek(){
             if(top >= 0){
                 return arr[top];
             }
