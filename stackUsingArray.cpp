@@ -38,7 +38,6 @@ class Stack{
             }
             else{
                 cout << "Empty stack" << endl;
-                return -1;
             }
         }
 
