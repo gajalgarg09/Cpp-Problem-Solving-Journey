@@ -1,3 +1,14 @@
+// Design a data structure to implement deque of size ‘N’. It should support the following operations:
+// pushFront(X): Inserts an element X in the front of the deque. Returns true if the element is inserted, otherwise false.
+// pushRear(X): Inserts an element X in the back of the deque. Returns true if the element is inserted, otherwise false.
+// popFront(): Pops an element from the front of the deque. Returns -1 if the deque is empty, otherwise returns the popped element.
+// popRear(): Pops an element from the back of the deque. Returns -1 if the deque is empty, otherwise returns the popped element.
+// getFront(): Returns the first element of the deque. If the deque is empty, it returns -1.
+// getRear(): Returns the last element of the deque. If the deque is empty, it returns -1.
+// isEmpty(): Returns true if the deque is empty, otherwise false.
+// isFull(): Returns true if the deque is full, otherwise false.
+
+
 #include<iostream>
 using namespace std;
 
