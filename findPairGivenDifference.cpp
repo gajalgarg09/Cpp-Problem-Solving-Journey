@@ -1,3 +1,6 @@
+// Given an array, arr[] and an integer x, return true if there exists a pair of elements in the array 
+// whose absolute difference is x, otherwise, return false.
+
 #include<iostream>
 #include<vector>
 #include<algorithm>
